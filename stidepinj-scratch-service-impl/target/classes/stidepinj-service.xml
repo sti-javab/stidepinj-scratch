@@ -5,9 +5,9 @@
                 http://www.springframework.org/schema/beans
                 http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="service" class="stidepinj.scratch.service.ScratchServiceImplFullName" />
-
     <!--
     <bean id="service" class="stidepinj.scratch.service.ScratchServiceImplFullName" />
     -->
+
+    <bean id="service" class="stidepinj.scratch.service.ScratchServiceImplGivenName"/>
 </beans>
