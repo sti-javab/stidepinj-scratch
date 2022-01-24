@@ -7,12 +7,18 @@
     <groupId>se.sti</groupId>
     <artifactId>stidepinj-scratch</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
-    
+    <modules>
+        <module>stidepinj-scratch-domain</module>
+        <module>stidepinj-scratch-service</module>
+        <module>stidepinj-scratch-service-impl</module>
+        <module>stidepinj-scratch-unittest</module>
+    </modules>
 
 </project>

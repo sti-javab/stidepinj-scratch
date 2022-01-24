@@ -6,7 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="stidepinj-scratch" />
+        <module name="stidepinj-scratch-service" />
+        <module name="stidepinj-scratch-service-impl" />
+        <module name="stidepinj-scratch-unittest" />
+        <module name="stidepinj-scratch-domain" />
       </profile>
     </annotationProcessing>
   </component>
