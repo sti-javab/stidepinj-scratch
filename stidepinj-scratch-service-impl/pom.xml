@@ -13,4 +13,15 @@
     <artifactId>stidepinj-scratch-service-impl</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>stidepinj-scratch-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>stidepinj-scratch-service</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

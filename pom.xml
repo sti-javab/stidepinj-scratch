@@ -21,4 +21,19 @@
         <module>stidepinj-scratch-unittest</module>
     </modules>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>se.sti</groupId>
+                <artifactId>stidepinj-scratch-domain</artifactId>
+                <version>${version}</version>
+            </dependency>
+            <dependency>
+                <groupId>se.sti</groupId>
+                <artifactId>stidepinj-scratch-service</artifactId>
+                <version>${version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 </project>
