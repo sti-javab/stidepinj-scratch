@@ -25,10 +25,13 @@
         <maven.surefire.plugin.version>2.19.1</maven.surefire.plugin.version>
 
         <junit.version>4.13.1</junit.version>
+        <project.version>1.0-SNAPSHOT</project.version>
         <spring.version>5.3.13</spring.version>
     </properties>
 
     <modules>
+        <module>stidepinj-scratch-dao</module>
+        <module>stidepinj-scratch-dao-impl</module>
         <module>stidepinj-scratch-domain</module>
         <module>stidepinj-scratch-service</module>
         <module>stidepinj-scratch-service-impl</module>
@@ -41,18 +44,28 @@
             <!-- project -->
             <dependency>
                 <groupId>se.sti</groupId>
+                <artifactId>stidepinj-scratch-dao</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>se.sti</groupId>
+                <artifactId>stidepinj-scratch-dao-impl</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>se.sti</groupId>
                 <artifactId>stidepinj-scratch-domain</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>se.sti</groupId>
                 <artifactId>stidepinj-scratch-service</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>se.sti</groupId>
                 <artifactId>stidepinj-scratch-service-impl</artifactId>
-                <version>${version}</version>
+                <version>${project.version}</version>
             </dependency>
 
             <!-- junit -->

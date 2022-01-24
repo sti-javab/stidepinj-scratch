@@ -9,7 +9,9 @@
         <module name="stidepinj-scratch-service" />
         <module name="stidepinj-scratch-service-impl" />
         <module name="stidepinj-scratch-unittest" />
+        <module name="stidepinj-scratch-dao-impl" />
         <module name="stidepinj-scratch-domain" />
+        <module name="stidepinj-scratch-dao" />
       </profile>
     </annotationProcessing>
   </component>

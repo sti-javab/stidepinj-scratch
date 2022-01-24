@@ -1,0 +1,266 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for se.sti:stidepinj-scratch-unittest:jar:1.0-SNAPSHOT
+[WARNING] The expression ${version} is deprecated. Please use ${project.version} instead.
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] stidepinj-scratch                                                  [pom]
+[INFO] stidepinj-scratch-domain                                           [jar]
+[INFO] stidepinj-scratch-dao                                              [jar]
+[INFO] stidepinj-scratch-dao-impl                                         [jar]
+[INFO] stidepinj-scratch-service                                          [jar]
+[INFO] stidepinj-scratch-service-impl                                     [jar]
+[INFO] stidepinj-scratch-unittest                                         [jar]
+[INFO] 
+[INFO] ----------------------< se.sti:stidepinj-scratch >----------------------
+[INFO] Building stidepinj-scratch 1.0-SNAPSHOT                            [1/7]
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stidepinj-scratch ---
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ stidepinj-scratch ---
+[INFO] Installing C:\projects\sti\stidepinj-scratch\pom.xml to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch\1.0-SNAPSHOT\stidepinj-scratch-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< se.sti:stidepinj-scratch-domain >-------------------
+[INFO] Building stidepinj-scratch-domain 1.0-SNAPSHOT                     [2/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stidepinj-scratch-domain ---
+[INFO] Deleting C:\projects\sti\stidepinj-scratch\stidepinj-scratch-domain\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ stidepinj-scratch-domain ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-domain\src\main\resources
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-domain\src\main\resources-filtered
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ stidepinj-scratch-domain ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\projects\sti\stidepinj-scratch\stidepinj-scratch-domain\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ stidepinj-scratch-domain ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-domain\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ stidepinj-scratch-domain ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stidepinj-scratch-domain ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ stidepinj-scratch-domain ---
+[INFO] Building jar: C:\out\stidepinj-scratch-domain-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ stidepinj-scratch-domain ---
+[INFO] Installing C:\out\stidepinj-scratch-domain-1.0-SNAPSHOT.jar to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-domain\1.0-SNAPSHOT\stidepinj-scratch-domain-1.0-SNAPSHOT.jar
+[INFO] Installing C:\projects\sti\stidepinj-scratch\stidepinj-scratch-domain\pom.xml to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-domain\1.0-SNAPSHOT\stidepinj-scratch-domain-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] --------------------< se.sti:stidepinj-scratch-dao >--------------------
+[INFO] Building stidepinj-scratch-dao 1.0-SNAPSHOT                        [3/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stidepinj-scratch-dao ---
+[INFO] Deleting C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ stidepinj-scratch-dao ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao\src\main\resources
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao\src\main\resources-filtered
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ stidepinj-scratch-dao ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ stidepinj-scratch-dao ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ stidepinj-scratch-dao ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stidepinj-scratch-dao ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ stidepinj-scratch-dao ---
+[INFO] Building jar: C:\out\stidepinj-scratch-dao-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ stidepinj-scratch-dao ---
+[INFO] Installing C:\out\stidepinj-scratch-dao-1.0-SNAPSHOT.jar to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-dao\1.0-SNAPSHOT\stidepinj-scratch-dao-1.0-SNAPSHOT.jar
+[INFO] Installing C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao\pom.xml to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-dao\1.0-SNAPSHOT\stidepinj-scratch-dao-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------< se.sti:stidepinj-scratch-dao-impl >------------------
+[INFO] Building stidepinj-scratch-dao-impl 1.0-SNAPSHOT                   [4/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stidepinj-scratch-dao-impl ---
+[INFO] Deleting C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao-impl\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ stidepinj-scratch-dao-impl ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao-impl\src\main\resources-filtered
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ stidepinj-scratch-dao-impl ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao-impl\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ stidepinj-scratch-dao-impl ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao-impl\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ stidepinj-scratch-dao-impl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stidepinj-scratch-dao-impl ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ stidepinj-scratch-dao-impl ---
+[INFO] Building jar: C:\out\stidepinj-scratch-dao-impl-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ stidepinj-scratch-dao-impl ---
+[INFO] Installing C:\out\stidepinj-scratch-dao-impl-1.0-SNAPSHOT.jar to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-dao-impl\1.0-SNAPSHOT\stidepinj-scratch-dao-impl-1.0-SNAPSHOT.jar
+[INFO] Installing C:\projects\sti\stidepinj-scratch\stidepinj-scratch-dao-impl\pom.xml to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-dao-impl\1.0-SNAPSHOT\stidepinj-scratch-dao-impl-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ------------------< se.sti:stidepinj-scratch-service >------------------
+[INFO] Building stidepinj-scratch-service 1.0-SNAPSHOT                    [5/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stidepinj-scratch-service ---
+[INFO] Deleting C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ stidepinj-scratch-service ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service\src\main\resources
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service\src\main\resources-filtered
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ stidepinj-scratch-service ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ stidepinj-scratch-service ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ stidepinj-scratch-service ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stidepinj-scratch-service ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ stidepinj-scratch-service ---
+[INFO] Building jar: C:\out\stidepinj-scratch-service-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ stidepinj-scratch-service ---
+[INFO] Installing C:\out\stidepinj-scratch-service-1.0-SNAPSHOT.jar to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-service\1.0-SNAPSHOT\stidepinj-scratch-service-1.0-SNAPSHOT.jar
+[INFO] Installing C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service\pom.xml to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-service\1.0-SNAPSHOT\stidepinj-scratch-service-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] ---------------< se.sti:stidepinj-scratch-service-impl >----------------
+[INFO] Building stidepinj-scratch-service-impl 1.0-SNAPSHOT               [6/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stidepinj-scratch-service-impl ---
+[INFO] Deleting C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service-impl\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ stidepinj-scratch-service-impl ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service-impl\src\main\resources-filtered
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ stidepinj-scratch-service-impl ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 2 source files to C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service-impl\target\classes
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ stidepinj-scratch-service-impl ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service-impl\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ stidepinj-scratch-service-impl ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stidepinj-scratch-service-impl ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ stidepinj-scratch-service-impl ---
+[INFO] Building jar: C:\out\stidepinj-scratch-service-impl-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ stidepinj-scratch-service-impl ---
+[INFO] Installing C:\out\stidepinj-scratch-service-impl-1.0-SNAPSHOT.jar to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-service-impl\1.0-SNAPSHOT\stidepinj-scratch-service-impl-1.0-SNAPSHOT.jar
+[INFO] Installing C:\projects\sti\stidepinj-scratch\stidepinj-scratch-service-impl\pom.xml to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-service-impl\1.0-SNAPSHOT\stidepinj-scratch-service-impl-1.0-SNAPSHOT.pom
+[INFO] 
+[INFO] -----------------< se.sti:stidepinj-scratch-unittest >------------------
+[INFO] Building stidepinj-scratch-unittest 1.0-SNAPSHOT                   [7/7]
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ stidepinj-scratch-unittest ---
+[INFO] Deleting C:\projects\sti\stidepinj-scratch\stidepinj-scratch-unittest\target
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ stidepinj-scratch-unittest ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-unittest\src\main\resources
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-unittest\src\main\resources-filtered
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:compile (default-compile) @ stidepinj-scratch-unittest ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ stidepinj-scratch-unittest ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory C:\projects\sti\stidepinj-scratch\stidepinj-scratch-unittest\src\test\resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.5:testCompile (default-testCompile) @ stidepinj-scratch-unittest ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to C:\projects\sti\stidepinj-scratch\stidepinj-scratch-unittest\target\test-classes
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ stidepinj-scratch-unittest ---
+[INFO] Surefire report directory: C:\projects\sti\stidepinj-scratch\stidepinj-scratch-unittest\target\surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running stidepinj.scratch.unittest.TestService
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.562 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ stidepinj-scratch-unittest ---
+[WARNING] JAR will be empty - no content was marked for inclusion!
+[INFO] Building jar: C:\out\stidepinj-scratch-unittest-1.0-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ stidepinj-scratch-unittest ---
+[INFO] Installing C:\out\stidepinj-scratch-unittest-1.0-SNAPSHOT.jar to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-unittest\1.0-SNAPSHOT\stidepinj-scratch-unittest-1.0-SNAPSHOT.jar
+[INFO] Installing C:\projects\sti\stidepinj-scratch\stidepinj-scratch-unittest\pom.xml to C:\Users\ozgur\.m2\repository\se\sti\stidepinj-scratch-unittest\1.0-SNAPSHOT\stidepinj-scratch-unittest-1.0-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary for stidepinj-scratch 1.0-SNAPSHOT:
+[INFO] 
+[INFO] stidepinj-scratch .................................. SUCCESS [  0.612 s]
+[INFO] stidepinj-scratch-domain ........................... SUCCESS [  2.941 s]
+[INFO] stidepinj-scratch-dao .............................. SUCCESS [  0.396 s]
+[INFO] stidepinj-scratch-dao-impl ......................... SUCCESS [  0.364 s]
+[INFO] stidepinj-scratch-service .......................... SUCCESS [  0.288 s]
+[INFO] stidepinj-scratch-service-impl ..................... SUCCESS [  0.467 s]
+[INFO] stidepinj-scratch-unittest ......................... SUCCESS [  2.363 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  7.708 s
+[INFO] Finished at: 2022-01-24T14:38:37+01:00
+[INFO] ------------------------------------------------------------------------
