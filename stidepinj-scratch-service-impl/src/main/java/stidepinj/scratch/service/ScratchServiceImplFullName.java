@@ -1,5 +1,6 @@
 package stidepinj.scratch.service;
 
+import stidepinj.scratch.dao.ScratchDao;
 import stidepinj.scratch.domain.Student;
 
 import java.util.ArrayList;
@@ -10,7 +11,10 @@ public class ScratchServiceImplFullName implements ScratchService{
 
     private static List<Student> students = new ArrayList<>();
 
-    public ScratchServiceImplFullName() {
+    private ScratchDao scratchDao;
+
+    public ScratchServiceImplFullName(ScratchDao scratchDao) {
+        this.scratchDao = scratchDao;
         fillStudentList();
     }
 

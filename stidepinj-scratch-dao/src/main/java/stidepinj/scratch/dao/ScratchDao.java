@@ -6,4 +6,5 @@ public interface ScratchDao {
 
     Student addStudent(String givenName, String surname);
 
+    boolean deleteStudent(String givenName, String surname);
 }

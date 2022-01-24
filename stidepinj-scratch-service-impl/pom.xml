@@ -16,6 +16,10 @@
     <dependencies>
         <dependency>
             <groupId>se.sti</groupId>
+            <artifactId>stidepinj-scratch-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>se.sti</groupId>
             <artifactId>stidepinj-scratch-domain</artifactId>
         </dependency>
         <dependency>

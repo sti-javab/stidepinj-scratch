@@ -18,8 +18,11 @@
         <!-- project -->
         <dependency>
             <groupId>se.sti</groupId>
+            <artifactId>stidepinj-scratch-dao-impl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>se.sti</groupId>
             <artifactId>stidepinj-scratch-service-impl</artifactId>
-            <version>${version}</version>
         </dependency>
 
         <!-- junit -->
