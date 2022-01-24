@@ -13,4 +13,28 @@
     <artifactId>stidepinj-scratch-unittest</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+
+        <!-- project -->
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>stidepinj-scratch-service-impl</artifactId>
+            <version>${version}</version>
+        </dependency>
+
+        <!-- junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- spring -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+        </dependency>
+
+    </dependencies>
+
 </project>
