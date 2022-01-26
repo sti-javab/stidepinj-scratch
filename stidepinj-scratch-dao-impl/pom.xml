@@ -21,6 +21,19 @@
             <artifactId>stidepinj-scratch-dao</artifactId>
         </dependency>
 
+        <!-- sti-abstractions -->
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>sti-abstractions-dao</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>sti-abstractions-dao-impl</artifactId>
+            <version>1.1-SNAPSHOT</version>
+        </dependency>
+
         <!-- mysql -->
         <dependency>
             <groupId>mysql</groupId>

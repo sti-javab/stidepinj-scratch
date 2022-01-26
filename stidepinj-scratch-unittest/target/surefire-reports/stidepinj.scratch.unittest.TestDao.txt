@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: stidepinj.scratch.unittest.TestService
+Test set: stidepinj.scratch.unittest.TestDao
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.525 sec

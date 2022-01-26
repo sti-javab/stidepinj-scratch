@@ -25,6 +25,12 @@
             <artifactId>stidepinj-scratch-service-impl</artifactId>
         </dependency>
 
+        <!-- sti projects -->
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>sti-abstractions-dao-impl</artifactId>
+        </dependency>
+
         <!-- junit -->
         <dependency>
             <groupId>junit</groupId>

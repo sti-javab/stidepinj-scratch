@@ -14,5 +14,8 @@
         <module name="stidepinj-scratch-dao" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="stidepinj-scratch-endpoint" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

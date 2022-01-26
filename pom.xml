@@ -28,6 +28,7 @@
         <mysql.version>8.0.28</mysql.version>
         <project.version>1.0-SNAPSHOT</project.version>
         <spring.version>5.3.13</spring.version>
+        <sti.abstractions.version>1.1-SNAPSHOT</sti.abstractions.version>
     </properties>
 
     <modules>
@@ -69,6 +70,18 @@
                 <version>${project.version}</version>
             </dependency>
 
+            <!-- sti projects -->
+            <dependency>
+                <groupId>se.sti</groupId>
+                <artifactId>sti-abstractions-dao</artifactId>
+                <version>${sti.abstractions.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>se.sti</groupId>
+                <artifactId>sti-abstractions-dao-impl</artifactId>
+                <version>${sti.abstractions.version}</version>
+            </dependency>
             <!-- junit -->
             <dependency>
                 <groupId>junit</groupId>
@@ -95,6 +108,8 @@
                 <artifactId>spring-context</artifactId>
                 <version>${spring.version}</version>
             </dependency>
+
+
 
         </dependencies>
     </dependencyManagement>

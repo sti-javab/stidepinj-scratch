@@ -18,5 +18,11 @@
             <groupId>se.sti</groupId>
             <artifactId>stidepinj-scratch-domain</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>se.sti</groupId>
+            <artifactId>sti-abstractions-dao-impl</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
