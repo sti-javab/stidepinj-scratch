@@ -8,7 +8,7 @@ import stidepinj.scratch.dao.ScratchDao;
 import stidepinj.scratch.domain.Student;
 
 public class TestDao {
-/*
+
     private static final String DENIZE = "Denize";
 
     ApplicationContext applicationContext =
@@ -21,5 +21,5 @@ public class TestDao {
         Student student = scratchDao.addStudent("Denize", "Scheffold");
         Assert.assertEquals(DENIZE, student.getGivenName());
     }
-*/
+
 }

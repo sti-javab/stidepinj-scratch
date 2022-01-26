@@ -5,7 +5,6 @@
                 http://www.springframework.org/schema/beans
                 http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <!-- @FIXME: cannot wire impl class. Why?
+
     <bean id="dao" class="stidepinj.scratch.dao.ScratchDaoImpl"/>
-    -->
 </beans>
